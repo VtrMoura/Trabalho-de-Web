@@ -17,22 +17,16 @@ const Home = () => {
           to="/register"
           className="flex flex-col items-center p-8 bg-black rounded-lg shadow-lg hover:shadow-xl transition-shadow"
         >
-          <UserPlus className="w-16 h-16 text-blue-300 mb-4" />
+          <UserPlus className="w-16 h-16 text-white mb-4" />
           <h2 className="text-2xl font-semibold text-white mb-2">Cadastrar Usuário</h2>
-          <p className="text-white">
-            Adicione novos usuários ao sistema com todas as informações necessárias.
-          </p>
         </Link>
 
         <Link
           to="/users"
           className="flex flex-col items-center p-8 bg-black rounded-lg shadow-lg hover:shadow-xl transition-shadow"
         >
-          <Users className="w-16 h-16 text-blue-300 mb-4" />
+          <Users className="w-16 h-16 text-white mb-4" />
           <h2 className="text-2xl font-semibold text-white mb-2">Lista de Usuários</h2>
-          <p className="text-white">
-            Visualize, edite e gerencie todos os usuários cadastrados.
-          </p>
         </Link>
       </div>
     </div>
