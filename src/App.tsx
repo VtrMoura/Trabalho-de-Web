@@ -7,7 +7,7 @@ import AppRoutes from './routes';
 function App() {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen">
+      <div className="bg-black flex flex-col min-h-screen font-mono">
         <Header />
         <main className="flex-grow container mx-auto px-4 py-8">
           <AppRoutes />
