@@ -47,6 +47,7 @@ const UserRegister = () => {
             type="text"
             {...register('name')}
             className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+             placeholder="Digite seu nome..."
           />
           {errors.name && <p className="mt-1 text-sm text-red-600">{errors.name.message}</p>}
         </div>
@@ -57,6 +58,7 @@ const UserRegister = () => {
             type="email"
             {...register('email')}
             className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+            placeholder="Digite seu sobrenome..."
           />
           {errors.email && <p className="mt-1 text-sm text-red-600">{errors.email.message}</p>}
         </div>
@@ -67,16 +69,18 @@ const UserRegister = () => {
             mask="(99) 99999-9999"
             {...register('phone')}
             className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+            placeholder="Digite seu telefone..."
           />
           {errors.phone && <p className="mt-1 text-sm text-red-600">{errors.phone.message}</p>}
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-gray-700">Login</label>
+          <label className="block text-sm font-medium text-gray-700">Nome de Usuário</label>
           <input
             type="text"
             {...register('login')}
             className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+            placeholder="Digite seu nome de usuário..."
           />
           {errors.login && <p className="mt-1 text-sm text-red-600">{errors.login.message}</p>}
         </div>
@@ -87,6 +91,7 @@ const UserRegister = () => {
             type="password"
             {...register('password')}
             className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+            placeholder="Digite sua senha..."
           />
           {errors.password && <p className="mt-1 text-sm text-red-600">{errors.password.message}</p>}
         </div>
@@ -97,13 +102,14 @@ const UserRegister = () => {
             type="password"
             {...register('confirmPassword')}
             className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+            placeholder="Confirme sua senha..."
           />
           {errors.confirmPassword && <p className="mt-1 text-sm text-red-600">{errors.confirmPassword.message}</p>}
         </div>
 
         <button
           type="submit"
-          className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+          className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-neutral-950 hover:bg-zinc-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
         >
           Cadastrar
         </button>

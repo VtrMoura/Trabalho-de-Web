@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Users } from 'lucide-react';
+import { Menu, X, CircleUser } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-blue-600 text-white shadow-lg">
-      <nav className="container mx-auto px-4">
+    <header className="bg-neutral-950 text-white shadow-lg">
+      <nav className="container mx-auto px-4 font-mono">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <Users className="h-8 w-8" />
-            <span className="font-bold text-xl">User Management</span>
+            <CircleUser className="h-8 w-8" />
+            <span className="font-bold text-xl">SeuCadastro</span>
           </Link>
 
           {/* Desktop Menu */}
