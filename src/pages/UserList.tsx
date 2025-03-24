@@ -62,8 +62,6 @@ const UserList = () => {
 
   return (
     <div className="max-w-6xl mx-auto">
-      <h2 className="text-3xl font-bold text-gray-800 mb-8">Lista de Usuários</h2>
-
       {editingUser ? (
         <div className="bg-white p-6 rounded-lg shadow-lg mb-8">
           <h3 className="text-xl font-semibold mb-4">Editar Usuário</h3>
@@ -123,7 +121,7 @@ const UserList = () => {
         </div>
       ) : null}
 
-      <div className="bg-white shadow-md rounded-lg overflow-hidden">
+      <div className="bg-white shadow-md rounded-lg overflow-hidden m-6">
         <table className="min-w-full divide-y divide-gray-200">
           <thead className="bg-gray-50">
             <tr>

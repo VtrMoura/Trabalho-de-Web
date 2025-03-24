@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="flex flex-col min-h-screen font-mono">
         <Header />
-        <main className="flex-grow w-full">
+        <main className="flex-grow w-full bg-[url('/img/pexels-pixabay-265072.jpg')] m-h-screen w-full  bg-cover bg-center bg-no-repeat bg-fixed">
           <AppRoutes />
         </main>
         <Footer />

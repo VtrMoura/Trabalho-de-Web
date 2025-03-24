@@ -1,3 +1,12 @@
 {
-  "users": []
+  "users": [
+    {
+      "id": "7d22",
+      "name": "dutrinha",
+      "email": "dutrinhagameplays@hotmail.com",
+      "phone": "(47) 99999-9999",
+      "login": "Nagaboyyy",
+      "password": "123"
+    }
+  ]
 }

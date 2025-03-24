@@ -4,7 +4,7 @@ import { UserPlus, Users } from 'lucide-react';
 
 const Home = () => {
   return (
-    <div className="m-h-screen w-full bg-[url('/img/pexels-pixabay-265072.jpg')] bg-cover bg-center bg-no-repeat bg-fixed">
+    <div className="m-h-screen w-full  bg-cover bg-center bg-no-repeat bg-fixed">
       <div className="min-h-screen w-full bg-black bg-opacity-60 flex flex-col justify-center">
         <div className="max-w-4xl mx-auto text-center px-4 py-12">
           <h1 className="text-4xl font-bold text-purple-300 mb-8">
