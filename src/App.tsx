@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="flex flex-col min-h-screen font-mono">
         <Header />
-        <main className="flex-grow container mx-auto px-4 py-8">
+        <main className="flex-grow w-full">
           <AppRoutes />
         </main>
         <Footer />

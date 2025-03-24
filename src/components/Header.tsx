@@ -6,7 +6,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-neutral-950 text-white shadow-lg">
+    <header className="bg-purple-500 text-white shadow-lg">
       <nav className="container mx-auto px-4 font-mono">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
@@ -16,13 +16,13 @@ const Header = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
-            <Link to="/" className="hover:text-blue-200 transition-colors">
+            <Link to="/" className="hover:text-cyan-400 transition-colors">
               Início
             </Link>
-            <Link to="/register" className="hover:text-blue-200 transition-colors">
+            <Link to="/register" className="hover:text-cyan-400 transition-colors">
               Cadastro
             </Link>
-            <Link to="/users" className="hover:text-blue-200 transition-colors">
+            <Link to="/users" className="hover:text-cyan-400 transition-colors">
               Lista de Usuários
             </Link>
           </div>
