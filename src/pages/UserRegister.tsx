@@ -38,9 +38,7 @@ const UserRegister = () => {
 
   return (
     <div className="max-w-2xl mx-auto">
-      <h2 className="text-3xl font-bold text-neutral-900 mb-8">Cadastro de Usuário</h2>
-
-      <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 ">
+      <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 bg-white rounded-lg p-6 m-6">
         <div>
           <label className="block text-sm font-medium text-neutral-900">Nome Completo</label>
           <input
